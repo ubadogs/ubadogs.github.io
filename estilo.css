@@ -1,8 +1,16 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
 *{
     padding: 0;
     margin: 0;
 }
-
+/* Header*/
 .header{
     background-color: #953f10;
     height: 150px;
@@ -56,6 +64,10 @@
     }
 }
 
+/*Fin del header*/
+
+/* Navegacion*/
+
 @media (min-width:760px){
     .navegacion_abajo{
         display: flex;
@@ -71,12 +83,40 @@ nav li:hover {
     background-color: #ffff;
 }
 
-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;  
-    justify-content: center;
+/*Fin de la navegacion*/
+
+/*Cuerpo titulo*/
+
+@media (min-width:760px) {
+    .titulo{
+        text-align: center;
+        margin-top: 2em;
+        padding-top: 20px;
+    }
 }
+
+h1{
+    text-align: center;
+    margin-top: 2em;
+    border-top-width: 20px;
+    padding-top: 220px;
+    color: #953f10;
+    }
+
+
+.Bienvenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen_canina{
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
 footer {
     width: 100%;
     height: 50px;
