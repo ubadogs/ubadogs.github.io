@@ -135,6 +135,10 @@ footer {
     background-color: #953f10;
     color: #9DCD5A;
     margin-top: 35px;
+    position: fixed;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: 0;
 }
 
 h2 {
@@ -201,6 +205,10 @@ input[placeholder="Repite la contraseña creada"]{
     padding: 20px;
     padding-bottom: 40px;
     border-radius: 3px;
+}
+
+.ProteccionDatos{
+    text-align: left;
 }
 
 #button {
